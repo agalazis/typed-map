@@ -1,5 +1,5 @@
 # typed-map
-Provides typed (immutable js like) map with restrictions as to what  keys can be used for  get and set (this is just an experiment)
+Provides typed (immutable js like) map with restrictions as to what  keys can be used for  get and set (this is just an experiment, an opportunity to play with mapped types and see how far I can get with them)
 
 [![npm](https://img.shields.io/npm/v/typed-map.svg)](https://www.npmjs.com/package/typed-map)
 [![Travis](https://img.shields.io/travis/agalazis/typed-map.svg)](https://travis-ci.org/agalazis/typed-map)
@@ -7,7 +7,7 @@ Provides typed (immutable js like) map with restrictions as to what  keys can be
 [![npm](https://img.shields.io/npm/dt/typed-map.svg)]()
 [![Built with generator-ts-np](https://img.shields.io/badge/scaffolding-ts_np-2699ad.svg)](https://github.com/vajahath/generator-ts-np)
 
-![](media/cong.jpg)
+![](media/experiment.gif)
 
 ## Install
 ```
