@@ -1,5 +1,5 @@
 # typed-map
-Provides typed immutable js map type with restrictions as to what  keys can be used for  get and set (this is just an experiment)
+Provides typed (immutable js like) map with restrictions as to what  keys can be used for  get and set (this is just an experiment)
 
 [![npm](https://img.shields.io/npm/v/typed-map.svg)](https://www.npmjs.com/package/typed-map)
 [![Travis](https://img.shields.io/travis/agalazis/typed-map.svg)](https://travis-ci.org/agalazis/typed-map)
