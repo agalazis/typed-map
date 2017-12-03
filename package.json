@@ -13,7 +13,8 @@
         "test-watch": "ts-node accessories/test-watch-log.ts && cross-env NODE_ENV=test mocha tests/ --compilers ts:ts-node/register,tsx:ts-node/register --recursive --reporter spec --watch",
         "preCommit-msg": "ts-node accessories/pre-commit-log.ts",
         "copy-json": "gulp copy-json",
-        "clean-build": "gulp clean-build"
+        "clean-build": "gulp clean-build",
+        "start": "npm run build && for FILE in dist/examples/*.js; do node $FILE; done; "
     },
     "repository": {
         "type": "git",
@@ -27,7 +28,9 @@
     "homepage": "https://github.com/agalazis/typed-map#readme",
     "dependencies": {
         "@types/immutable": "^3.8.7",
-        "immutable": "^3.8.2"
+        "@types/winston": "^2.3.7",
+        "immutable": "^3.8.2",
+        "winston": "2.4"
     },
     "devDependencies": {
         "@types/chai": "^4.0.1",

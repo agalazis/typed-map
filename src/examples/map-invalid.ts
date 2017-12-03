@@ -1,8 +1,8 @@
 import { Map } from 'immutable';
-import {Person} from './person';
-
+import * as logger from 'winston';
+import { Person } from './person';
 // you can set an object with extra keys
-let a = Map<keyof Person, string>({
+const a = Map<keyof Person, string>({
 	name: 'John',
 	surname: 'Smith',
 });
@@ -10,4 +10,4 @@ let a = Map<keyof Person, string>({
 // un comment the following 2 lines  and try to compile the code
 // console.log(a.get('random'));
 // a = a.set('somethingElse', 'trolled');
-console.log(a)
+logger.log('info', JSON.stringify(a));
